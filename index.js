@@ -1,5 +1,5 @@
 // Write your solution in this file!
-let driver = {};
+const driver = {};
 
 updateDriverWithKeyValuePaire(driver, key, value){
   newDriver = Object.assign({}, driver);
