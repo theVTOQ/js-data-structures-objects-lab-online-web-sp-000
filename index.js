@@ -11,3 +11,7 @@ destructivelyUpdateDriverWithKeyValue(driver, key, value){
   driver[key] = value;
   return driver;
 }
+
+deleteDriverByKey(driver, key){
+  delete driver[key];
+}
